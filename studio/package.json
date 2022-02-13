@@ -8,7 +8,9 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-    "build": "sanity build"
+    "build": "sanity build",
+    "lint": "eslint .",
+    "test": "sanity check"
   },
   "keywords": [
     "sanity"
@@ -22,18 +24,25 @@
     "@sanity/default-login": "^2.24.1",
     "@sanity/desk-tool": "^2.25.0",
     "@sanity/eslint-config-studio": "^2.0.0",
-    "@sanity/vision": "^2.25.0",
-    "eslint": "^8.6.0",
-    "eslint-plugin-import": "^2.25.4",
+    "@sanity/production-preview": "^2.15.0",
+    "@sanity/vision": "^2.27.0",
     "prop-types": "^15.7",
     "react": "^17.0",
     "react-dom": "^17.0",
+    "react-icons": "^4.3.1",
+    "sanity-plugin-asset-source-unsplash": "^0.1.5",
     "sanity-plugin-dashboard-widget-netlify": "^1.2.1",
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
+    "eslint": "^8.6.0",
     "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-standard-react": "^11.0.1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
     "prettier": "^2.5.1"
   }
 }
